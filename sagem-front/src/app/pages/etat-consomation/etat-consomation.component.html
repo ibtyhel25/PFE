@@ -1,0 +1,62 @@
+
+
+<div class=" content">
+    <div class=" row">
+        <div class=" col-md-12">
+            <div class=" card card-plain">
+  
+  
+                <div class=" row">
+  
+                    <div class=" col-lg-12 col-md-12">
+                        <div class=" card">
+                            <div class=" card-header">
+                                <form [formGroup]="filterForm" (ngSubmit)="onSubmit()">
+                                <h4 class=" card-title"> CONSOMMATION US</h4>
+                                <input type="text" placeholder="Entrer CodeUS" formControlName="codeUS"/>
+                                <input type="text" placeholder="Entrer Code Article" formControlName="codeP"/>
+                         
+                         
+                                <button type="submit">SEARCH</button>
+                                </form>
+                            </div>
+                            <h4 class=" card-title"></h4>
+                            <div class=" card-body">
+                                <div class=" table-responsive">
+                                    <table class=" table">
+                                        <thead class=" text-primary">
+                                            <tr>
+                                                <th>US</th>
+                                                <th>Emplacement</th>
+                                                <th>Statut</th>
+                                                <th >Quantité actuelle</th>
+                                                <th >Quantité Restante Théo  </th>
+                                                <th  >Quantité Restante PanaCIM</th>
+                                                <th  >Ecart</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr *ngFor="let info of informationUS">
+                                            <td>{{info.codeus}}</td>
+                                            <td>{{info.magasin.emplacement_magasin}}</td>
+                                            <td>{{info.status.etat}}</td>
+                                          
+                                            <td>{{info.quantite}}</td>
+                                            <td>{{info.quantite_restant_theo}}</td>
+                                            <td>{{info.quantite_restant_panaCim}}</td>
+                                            <td>{{info.ecart}}</td>
+                                             
+                                             
+                                          </tr>
+                                          
+                                        </tbody>
+                                      </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div> 

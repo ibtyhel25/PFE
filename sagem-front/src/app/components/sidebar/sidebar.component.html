@@ -1,0 +1,61 @@
+<div class="logo">
+  <a routerLink="accueil" class="simple-text logo-mini">
+    <div class="logo-img">
+      <img src="./assets/sgm.png" />
+    </div>
+  </a>
+  <a routerLink="accueil" class="simple-text logo-normal">
+    SagemCom
+  </a>
+</div>
+<div class="sidebar-wrapper">
+  <ul class="nav">
+    <li class="nav-item">
+      <a routerLink="/compte/dashboard">
+        <i class="tim-icons  icon-chart-pie-36"></i>
+        <p>Dashboard</p>
+      </a>
+    </li>
+    <li class="nav-item" *ngIf="role==='ADMIN'" >
+      <a routerLink="/compte/user">
+        <i class="tim-icons  icon-bullet-list-67"></i>
+        <p>Liste des utilisateurs</p>
+      </a>
+    </li>
+ 
+    <li class="nav-item" >
+      <a routerLink="/compte/historique">
+        <i class="tim-icons  icon-align-center"></i>
+        <p>Historique US</p>
+      </a>
+    </li>
+
+    <li class="nav-item" >
+      <a routerLink="/compte/etat-stock-dynamique">
+        <i class="tim-icons  icon-delivery-fast"></i>
+        <p>Etat de stock</p>
+      </a>
+    </li>
+
+    <li class="nav-item" >
+      <a routerLink="/compte/etat-consomation-us">
+        <i class="tim-icons  icon-basket-simple"></i>
+        <p>Etat de consommation US</p>
+      </a>
+    </li>
+
+    <li class="nav-item" >
+      <a routerLink="/compte/les-logs">
+        <i class="tim-icons  icon-square-pin"></i>
+        <p>Les-logs</p>
+      </a>
+    </li>
+
+    <li class="nav-item" >
+      <a routerLink="/compte/details-pick-list">
+        <i class="tim-icons  icon-square-pin"></i>
+        <p>Details Pick lists</p>
+      </a>
+    </li>
+  </ul>
+</div>

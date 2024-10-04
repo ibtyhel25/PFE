@@ -1,0 +1,52 @@
+<div class=" content">
+    <div class=" row">
+        <div class=" col-md-12">
+            <div class=" card card-plain">
+
+
+                <div class=" row">
+
+                    <div class=" col-lg-12 col-md-12">
+                        <div class=" card">
+                            <div class=" card-header">
+                                <form [formGroup]="filterForm" (ngSubmit)="onSubmit()"> 
+                                <h4 class=" card-title"> ETAT DU STOCK DYNAMIQUE</h4>
+                                <input type="text" placeholder="Entrer CodeUS" formControlName="codeUS">
+                                <input type="text" placeholder="Code Magasin" formControlName="codeM">
+                               
+                                <button type="submit">SEARCH</button>
+                                </form>
+                            </div>
+                            <h4 class=" card-title"></h4>
+                            <div class=" card-body">
+                                <div class=" table-responsive">
+                                    <table class=" table">
+                                        <thead class=" text-primary">
+                                            <tr>
+                                                <th>Magasin</th>
+                                                <th>Emplacement</th>
+                                                <th>Article</th>
+                                                 <th  >US</th>
+                                                <th  >Quantité >0  </th>
+                                             </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr *ngFor="let item of informationus">
+                                            <td>{{item.magasin.code_magasin}}</td>
+                                            <td>{{item.magasin.emplacement_magasin}}</td>
+                                             <td>{{item.produit.code_produit}}</td>
+                                            <td>{{item.codeus}}</td>
+                                            <td *ngIf="item.quantite >0">{{item.quantite}}</td>
+                                          </tr>
+                                          
+                                        </tbody>
+                                      </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 

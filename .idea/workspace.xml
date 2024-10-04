@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="41341198-7709-4f92-b915-2b4781fb1851" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/sagem-back/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-back/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-back/src/main/java/com/example/Backend/BackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-back/src/main/java/com/example/Backend/BackendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-back/src/main/java/com/example/Backend/config/JwtAuthenticateFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-back/src/main/java/com/example/Backend/config/JwtAuthenticateFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-back/src/main/java/com/example/Backend/controller/PicklistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-back/src/main/java/com/example/Backend/controller/PicklistController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-back/src/main/java/com/example/Backend/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-back/src/main/java/com/example/Backend/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-back/src/main/java/com/example/Backend/models/Informationus.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-back/src/main/java/com/example/Backend/models/Informationus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-back/src/main/java/com/example/Backend/models/Picklist.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-back/src/main/java/com/example/Backend/models/Picklist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-back/src/main/java/com/example/Backend/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-back/src/main/java/com/example/Backend/models/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-back/src/main/java/com/example/Backend/models/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-back/src/main/java/com/example/Backend/models/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-back/src/main/java/com/example/Backend/repo/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-back/src/main/java/com/example/Backend/repo/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-back/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-back/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/documentation/black-dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/documentation/black-dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/documentation/documentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/documentation/documentation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/src/app/components/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/src/app/components/navbar/navbar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/src/app/components/sidebar/sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/src/app/components/sidebar/sidebar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/src/app/components/sidebar/sidebar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/src/app/components/sidebar/sidebar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/src/app/layouts/admin-layout/admin-layout.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/src/app/layouts/admin-layout/admin-layout.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/src/app/layouts/admin-layout/admin-layout.routing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/src/app/layouts/admin-layout/admin-layout.routing.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/src/app/layouts/auth-layout/auth-layout.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/src/app/layouts/auth-layout/auth-layout.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/src/app/pages/accueil/accueil.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/src/app/pages/accueil/accueil.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/src/app/pages/dashboard/dashboard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/src/app/pages/dashboard/dashboard.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/src/app/pages/etat-consomation/etat-consomation.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/src/app/pages/etat-consomation/etat-consomation.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/src/app/pages/etat-consomation/etat-consomation.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/src/app/pages/etat-consomation/etat-consomation.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/src/app/pages/etat-stock/etat-stock.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/src/app/pages/etat-stock/etat-stock.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/src/app/pages/historique/historique.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/src/app/pages/historique/historique.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/src/app/pages/les-log/les-log.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/src/app/pages/les-log/les-log.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/src/app/pages/list-user/list-user.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/src/app/pages/list-user/list-user.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/src/app/pages/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/src/app/pages/login/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/src/app/pages/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/src/app/pages/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/src/app/pages/pick-list/pick-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/src/app/pages/pick-list/pick-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/src/app/pages/profile/profile.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/src/app/pages/profile/profile.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/src/app/pages/profile/profile.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/src/app/pages/profile/profile.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/src/app/pages/tables/tables.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/src/app/pages/tables/tables.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/src/app/pages/user/user.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/src/app/pages/user/user.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/src/app/service/login.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/src/app/service/login.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagem-front/src/app/service/us.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sagem-front/src/app/service/us.service.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/sagem-back" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2SfJ3qxcW6nSKKZ31ifMO5homD3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rayen/Desktop/AppPfe/AppPfe&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41341198-7709-4f92-b915-2b4781fb1851" name="Changes" comment="" />
+      <created>1689531505559</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689531505559</updated>
+      <workItem from="1689531506721" duration="4852000" />
+      <workItem from="1689583084525" duration="11206000" />
+      <workItem from="1689661444251" duration="8206000" />
+      <workItem from="1689708434864" duration="647000" />
+      <workItem from="1689784401023" duration="3656000" />
+      <workItem from="1701289748451" duration="655000" />
+      <workItem from="1701350862177" duration="674000" />
+      <workItem from="1702328513735" duration="1246000" />
+      <workItem from="1702332394844" duration="560000" />
+      <workItem from="1702405191380" duration="708000" />
+      <workItem from="1702406906891" duration="40000" />
+      <workItem from="1702407159834" duration="1784000" />
+      <workItem from="1703788074941" duration="4466000" />
+      <workItem from="1710769429243" duration="3250000" />
+      <workItem from="1710847580559" duration="1221000" />
+      <workItem from="1710890156634" duration="4314000" />
+      <workItem from="1710938649763" duration="3832000" />
+      <workItem from="1714425913367" duration="1675000" />
+      <workItem from="1714679951762" duration="1909000" />
+      <workItem from="1714770271740" duration="3514000" />
+      <workItem from="1714858861935" duration="2079000" />
+      <workItem from="1714925091461" duration="9386000" />
+      <workItem from="1714984003708" duration="1176000" />
+      <workItem from="1715198251500" duration="1751000" />
+      <workItem from="1715260777893" duration="1900000" />
+      <workItem from="1715430640228" duration="3163000" />
+      <workItem from="1715512618050" duration="2053000" />
+      <workItem from="1715605065866" duration="58000" />
+      <workItem from="1715640062285" duration="1942000" />
+      <workItem from="1715676402156" duration="845000" />
+      <workItem from="1715983531004" duration="796000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

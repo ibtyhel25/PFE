@@ -1,0 +1,55 @@
+<div class=" content">
+    <div class=" row">
+        <div class=" col-md-12">
+            <div class=" card card-plain">
+
+
+                <div class=" row">
+
+                    <div class=" col-lg-12 col-md-12">
+                        <div class=" card">
+                            <div class=" card-header">
+                                <form [formGroup]="filterForm" (ngSubmit)="onSubmit()">
+                                <h4 class=" card-title">HISTORIQUE US</h4>
+                                <input type="text" placeholder="Entre US"formControlName="code">
+                                <button type="submit">SEARCH</button>
+                                </form>
+                            </div>
+                            <h4 class=" card-title"></h4>
+                            <div class=" card-body">
+                                <div class=" table-responsive">
+                                    <table class=" table tablesorter" id="">
+                                        <thead class=" text-primary">
+                                            <tr>
+                                                <th>US</th>
+                                                <th>Article</th>
+                                                <th>Mouvement</th>
+                                                <th>Date Mvt</th>
+                                                <th>Magsin</th>
+                                                <th>Emplacement </th>
+                                         
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                           
+                                          
+                                            <tr *ngFor="let item of historique">
+                                               <td>{{item.codeus}}</td>
+                                               <td>{{item.produit.code_produit}}</td>
+                                               <td>{{item.status.etat}}</td>
+                                               <td>{{item.produit.date_creation}}</td>
+                                               <td>{{item.magasin.code_magasin}}</td>
+                                               <td>{{item.magasin.emplacement_magasin}}</td>
+                                              
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

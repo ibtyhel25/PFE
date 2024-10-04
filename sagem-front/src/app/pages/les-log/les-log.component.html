@@ -1,0 +1,58 @@
+<div class=" content">
+    <div class=" row">
+        <div class=" col-md-12">
+            <div class=" card card-plain">
+
+
+                <div class=" row">
+
+                    <div class=" col-lg-12 col-md-12">
+                        <div class=" card">
+                            <div class=" card-header">
+                                <form [formGroup]="filterForm" (ngSubmit)="onSubmit()"> 
+                                <h4 class=" card-title"> LES-LOG</h4>
+                                <label for="Date">Date debut:</label>
+                                <input type="date" id="Date" name="Date" formControlName="dateD" >
+                                <label for="Date">Date fin:</label>
+                                <input type="date" id="Date" name="Date" formControlName="dateF">
+                                
+
+                                <button type="submit">SEARCH</button>
+                                </form>
+                            </div>
+                            <h4 class=" card-title"></h4>
+                            <div class=" card-body">
+                                <div class=" table-responsive">
+                                    <table class=" table tablesorter" id="">
+                                        <thead class=" text-primary">
+                                            <tr>
+                                                <th>Article</th>
+                                                <th>US</th>
+                                                <th>Mouvement</th>
+                                                <th>Date Mvt</th>
+                                                <th>Magsin</th>
+                                                <th>Emplacement </th>
+                                                <th>obserevation</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr *ngFor="let item of mvts">
+                                                <td>{{item.informationus.produit.code_produit}}</td>
+                                                <td>{{item.informationus.codeus}}</td>
+                                                <td>{{item.informationus.status.etat}}</td>
+                                                <td>{{item.date_creation|date}}</td>
+                                                <td>{{item.informationus.magasin.code_magasin}}</td>
+                                                <td>{{item.informationus.magasin.emplacement_magasin}}</td>
+                                                <td>{{item.obserevation}}</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

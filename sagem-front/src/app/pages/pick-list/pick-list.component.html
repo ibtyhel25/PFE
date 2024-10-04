@@ -1,0 +1,153 @@
+<div class=" content">
+    <div class=" row">
+        <div class=" col-md-12">
+            <div class=" card card-plain">
+
+
+                <div class=" row">
+
+                    <div class=" col-lg-12 col-md-12">
+                        <div class=" card">
+                          <div class=" card-header">
+                            <form [formGroup]="filterForm" (ngSubmit)="onSubmit()">
+                              <h4 class=" card-title">PICK-LIST</h4>
+                            <label for="Date">Date de creation:</label>
+                            <input type="date" id="Date" name="Date"  formControlName="date"
+                              [ngClass]="{ 'is-invalid': submitted && f.date.errors }" />
+                              <div *ngIf="submitted && f.date.errors" class="invalid-feedback">
+                                <div *ngIf="f.date.errors.required" style="margin-top: -16px;text-align: left;margin-left: 53px;font-size: 12px;font-weight: bold;"
+                                > Ce champs est requis </div>
+            
+                            </div>
+                       
+                            <button type="submit">SEARCH</button>
+                          </form>
+                        </div>
+                     
+                             
+                            <div class=" card-body">
+                                <div class=" table-responsive">
+
+                                    <table class=" table">
+                                        <tbody *ngFor="let item of picklist|paginate: { itemsPerPage: 1, currentPage: p }">
+                                          <tr>
+                                            <td>
+                                            
+                                            </td>
+                                            <td>
+                                              <p class=" title">Date de creation</p>
+                                              <p class=" text-muted">
+                                                {{item.dateCreation}}
+                                              </p>
+                                            </td>
+                                            
+                                          </tr>
+                                        
+                                           
+                                          <tr>
+                                            <td>
+                                             
+                                            </td>
+                                            <td>
+                                              <p class=" title">Date servi</p>
+                                              <p class=" text-muted">
+                                                {{item.date_servi}}
+                                              </p>
+                                            </td>
+                                            
+                                          </tr>
+                                          
+                                          <tr>
+                                            <td>
+                                             
+                                            </td>
+                                            <td>
+                                              <p class=" title">Date Reception</p>
+                                              <p class=" text-muted">
+                                                {{item.date_reception}}
+                                              </p>
+                                            </td>
+                                            
+                                          </tr>
+                                         
+                                          <tr>
+                                            <td>
+                                             
+                                            </td>
+                                            <td>
+                                              <p class=" title">Code Article</p>
+                                              <p class=" text-muted">
+                                                {{item.informationus.produit.code_produit}}
+                                              </p>
+                                            </td>
+                                           
+                                          </tr>
+                                          <tr>
+                                            <td>
+                                             
+                                            </td>
+                                            <td>
+                                              <p class=" title">Type picklist</p>
+                                              <p class=" text-muted">
+                                                {{item.typePicklist}}
+                                              </p>
+                                            </td>
+                                             
+                                          </tr>
+                                          <tr>
+                                            <td>
+                                             
+                                            </td>
+                                            <td>
+                                              <p class=" title">Num pickList</p>
+                                              <p class=" text-muted">
+                                               {{item.num_picklist}}
+                                              </p>
+                                            </td>
+                                             
+                                          </tr>
+                                          <tr>
+                                            <td>
+                                             
+                                            </td>
+                                            <td>
+                                              <p class=" title">Ligne de production</p>
+                                              <p class=" text-muted">
+                                                {{item.ligneProduction.designiation}}
+                                              </p>
+                                            </td>
+                                            
+                                          </tr>
+                                       
+                                          <tr>
+                                            <td>
+                                             
+                                            </td>
+                                            <td>
+                                              <p class=" title">US</p>
+                                              <p class=" text-muted">
+                                                {{item.informationus.codeus}}
+                                              </p>
+                                            </td>
+                                           
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                      <pagination-controls   
+                                      responsive="true"
+                                     previousLabel=" "
+                                     nextLabel=" "
+                                     (pageChange)="p = $event"
+                                       >
+               </pagination-controls>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
